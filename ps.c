@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int a;
-printf("enter the values",a);
-scanf("%d",&a);
-if(a<0)
+int s;
+printf("enter the values",s);
+scanf("%d",&s);
+if(s<0)
 {
 printf("the value  is negative");
 }
- else if(a=0)
+ else if(s=0)
 {
 printf("the value is zero");
 }
